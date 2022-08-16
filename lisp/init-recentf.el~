@@ -1,0 +1,12 @@
+;;; init-recentf.el --- Recentf mode on
+;;; Commentary:
+
+;;; Code:
+(require 'recentf)
+(recentf-mode 1)
+
+(setq recentf-max-menu-items 18)
+
+
+(provide 'init-recentf)
+;;; init-recentf.el ends here
